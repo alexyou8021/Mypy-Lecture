@@ -11,7 +11,7 @@ print(hello('World'))
 Statically Typed Hello World
 """
 
-def hello(name: str) -> str: 
+def s_hello(name: str) -> str: 
     return 'Hello ' + name
 
 print(hello('World'))
